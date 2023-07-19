@@ -1,0 +1,53 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.mainbackground{
+
+    display: flex;
+    justify-content: space-between;
+ background: rgba(229, 84, 115, 0.10);
+    
+
+}
+
+.maintext{
+    padding-left: 240px;
+    padding-right: 97px;
+}
+.headingtext{
+    color: #272727;
+font-size: 80px;
+margin-top: 197px;
+margin-bottom: 0px;
+
+}
+.paragraph{
+    color: #272727;
+font-size: 18px;
+margin-top: 32px;
+margin-bottom: 32px;
+
+
+}
+.button-primary{
+    
+background: #E55473;
+border-style: none;
+color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 43px;
+
+}
+
+.featuredsection{
+    text-align: center;
+    margin-top: 178px;
+}
+
+
+.featureheading
+
+
