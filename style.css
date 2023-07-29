@@ -207,6 +207,8 @@ p {
     border-radius: 8px;
     margin-left: 300px;
     justify-content: center;
+    padding: 20px 43px;
+    border-style: none;
 
 
 }
@@ -217,4 +219,55 @@ p {
     height: 420px;
     flex-shrink: 0;
     margin: 100px 400px 100px 185px;
+}
+
+.sectionheading {
+
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.sectiondescription {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instaimage {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.instagramimages1 {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+.instagramimages1 {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+.instagramimages2 {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+.instagramimages3 {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+.instagramimages4 {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
 }
