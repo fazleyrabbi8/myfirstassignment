@@ -49,6 +49,10 @@ p {
 
 }
 
+.mainimage {
+    /* height: 600px; */
+}
+
 .featuredsection {
     text-align: center;
     margin-top: 178px;
@@ -61,64 +65,56 @@ p {
 
 .pictureslot {
 
-
-    margin-right: 240px;
-    margin-left: 240px;
-
-
-}
-
-.featuredimages {
-    text-align: center;
-    align-items: center;
     display: flex;
+    justify-content: center;
+    text-align: center;
+
+
 }
 
-#featureimg1 {
-    background: rgba(167, 33, 98, 0.15);
+.featureimage1 {
+
+    background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
-    width: 464px;
-    height: 538px;
-    margin-right: 24px;
+    margin: 10px;
+    width: 190px;
+    height: 300px;
+    padding: 10px 10px 0px 10px;
+
 
 
 }
 
-#featureimg2 {
+.featureimg2 {
 
     background: rgba(5, 151, 160, 0.15);
+    margin: 10px;
     border-radius: 300px 300px 0px 0px;
-    width: 464px;
-    height: 538px;
-    margin: 117 px 47px 51px 47 px;
+    width: 190px;
+    height: 300px;
+    padding: 10px 10px 0px 10px;
 
-    padding-top: 20px;
+
+
 
 }
 
-#featureimg3 {
+.featureimg3 {
 
     background: rgba(71, 125, 17, 0.15);
+    margin: 10px;
     border-radius: 300px 300px 0px 0px;
-    height: 538px;
-    width: 464px;
-
-    margin: 117 px 47px 51px 47 px;
-
-
+    width: 190px;
+    height: 300px;
+    padding: 10px 10px 0px 10px;
 
 }
 
-figcaption {
-
+.featureimgcaption {
     color: #272727;
     text-align: center;
-   
     font-size: 24px;
     font-weight: 700;
+    line-height: 35px;
     text-decoration-line: underline;
-    padding-top: 50px;
-    margin-top: 32px;
-    align-items: center;
-    
 }
