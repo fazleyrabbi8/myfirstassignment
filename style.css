@@ -120,35 +120,101 @@ p {
     line-height: 35px;
     text-decoration-line: underline;
 }
-.services{
+
+.services {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     max-width: 1440px;
     min-height: 320px;
     text-align: center;
-   margin: auto;
+    margin: auto;
 }
 
-.servicesicon{
-    
+.servicesicon {
+
     display: flex;
     margin: auto;
     justify-content: center;
     padding-top: 200px;
 }
-.servicestext{
-   display: flex;
-   color: #272727;
+
+.servicestext {
+    display: flex;
+    color: #272727;
 }
-.serviceimg1{
+
+.serviceimg1 {
 
     margin-right: 100px;
 }
-.serviceimg2{
+
+.serviceimg2 {
 
     margin-right: 100px;
 }
-.serviceimg3{
+
+.serviceimg3 {
 
     margin-right: 100px;
+}
+
+/* hotdealsection */
+
+.hotdeals {
+
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap: 180px;
+    padding: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.dealstext {
+    padding-left: 400px;
+    padding-right: 190px;
+    padding-bottom: 180px;
+    justify-content: center;
+    margin-right: 185px;
+}
+
+.dealtitle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 230px;
+    text-align: center;
+}
+
+.pinktext {
+    color: #E55473;
+}
+
+.dealdescription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+#signupbutton {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: 300px;
+    justify-content: center;
+
+
+}
+
+.dealsimage {
+
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    margin: 100px 400px 100px 185px;
 }
