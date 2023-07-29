@@ -323,11 +323,11 @@ p {
 
 }
 
+
 .endsection {
 
     background: #111010;
-    width: 1922px;
-    height: 449px;
+    border-radius: 8px;
     flex-shrink: 0;
 }
 
